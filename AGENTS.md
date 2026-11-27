@@ -11,5 +11,5 @@ Read [README.md](README.md) first: what lives here, the rules, and how implement
   place naming the new one (`Moved to pp-specs: <URL>`). Decision ids keep their names.
 - **This repository is public.** Write what an implementation does; never secret names, cloud permissions,
   infrastructure repositories, or who holds which key. `scripts/check/check_private_infra.sh` fails on them.
-- **Checks** (CI runs all three): `scripts/check/check_json.py`, `scripts/check/check_links.py`,
-  `scripts/check/check_private_infra.sh`.
+- **Checks** (CI runs them all): `scripts/check/check_json.py`, `scripts/check/check_vectors.py` (a vector file changes
+  only with its sha256 line in `vectors/manifest.json`), `scripts/check/check_links.py`, `scripts/check/check_private_infra.sh`.
