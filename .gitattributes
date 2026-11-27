@@ -1,0 +1,4 @@
+# Vector files are compared byte for byte by every implementation: git never converts their line ends (a Windows
+# clone with core.autocrlf=true would turn LF into CRLF). The same for every other file, which is plain LF text.
+vectors/*.json -text
+* text=auto eol=lf
