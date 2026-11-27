@@ -1,0 +1,90 @@
+{
+  "about": "Every vector file here and its sha256. A file changes only by adding cases, and its line here changes with it in the same pull request (scripts/check/check_vectors.py). imported_from: where the file lived before pp-specs (capability-repos CR025 step 2).",
+  "files": [
+    {
+      "file": "account_card_vectors.json",
+      "sha256": "54a150963381aa54ed663a4cfa4ffcb4c7df23ddcfdf8d029ebe2fc9395c6c00",
+      "imported_from": "pp-browser:capabilities/people/src/lib/people/tests/data/account_card_vectors.json"
+    },
+    {
+      "file": "account_locker_vectors.json",
+      "sha256": "2c236c24941e8b210ba06dd199ffad73ceb045257064355b17f3a522279eacd3",
+      "imported_from": "pp-browser:capabilities/people/src/lib/people/tests/data/account_locker_vectors.json"
+    },
+    {
+      "file": "alg_id_vectors.json",
+      "sha256": "2d6a2d565fd053d00392bd9e65ac023da9ecb0bd6c57737d037434d6c124c119",
+      "imported_from": "pp-cpp-crypto:tests/data/alg_id_vectors.json"
+    },
+    {
+      "file": "broadcast_join_ticket_vectors.json",
+      "sha256": "b0c55bf629cb7b73c56cadd167942359a84a32c3a40903b98a879b5362df5e82",
+      "imported_from": "pp-browser:capabilities/broadcast/src/lib/broadcast/tests/data/broadcast_join_ticket_vectors.json"
+    },
+    {
+      "file": "dht_record_vectors.json",
+      "sha256": "12a3fb6de5da1afccfb969a25087db71c14c1486f6a3a735ed87b730dccbb36c",
+      "imported_from": "pp-cpp-mesh:src/dht/tests/data/dht_record_vectors.json"
+    },
+    {
+      "file": "envelope_vectors.json",
+      "sha256": "33a4eb29faab853b262de11b9a5cbd8ff47cbf68f771105c02a53d96f2268d3f",
+      "imported_from": "pp-browser:capabilities/delivery/src/lib/delivery/tests/data/envelope_vectors.json"
+    },
+    {
+      "file": "ext_area_vectors.json",
+      "sha256": "8d57e97aca355bd7ed80694b268bce19b6b8fe307715a9a482b3fc21649e7901",
+      "imported_from": "pp-cpp-common:tests/data/ext_area_vectors.json"
+    },
+    {
+      "file": "group_roster_vectors.json",
+      "sha256": "def9a60778aba78365dde7aec0a805e14ab65d809e690155c1a7655d1136f682",
+      "imported_from": "pp-browser:capabilities/messaging/src/lib/messaging/tests/data/group_roster_vectors.json"
+    },
+    {
+      "file": "kem_binding_vectors.json",
+      "sha256": "02b120011ded62e759f86738328b53e8336780e73c429d8e05c8efe8b090b8da",
+      "imported_from": "pp-browser:capabilities/base/src/foundation/crypto/tests/data/kem_binding_vectors.json"
+    },
+    {
+      "file": "link_handshake_vectors.json",
+      "sha256": "70034d6eb8faddbba28a5cb869491103aeb3685cacb552fff9ba04052b669c03",
+      "imported_from": "pp-browser:capabilities/base/src/foundation/crypto/tests/data/link_handshake_vectors.json"
+    },
+    {
+      "file": "peer_announce_tip_vectors.json",
+      "sha256": "2922b7c69b6a0a9c99e76999e283ad73aedaeb9b94d6f06caf3b947e3c83a426",
+      "imported_from": "pp-browser:capabilities/broadcast/src/lib/broadcast/tests/data/peer_announce_tip_vectors.json"
+    },
+    {
+      "file": "peer_request_vectors.json",
+      "sha256": "fc6349986ae0cf75f75b6e92ab236ab7618136b717d1fd1970203d7af4ba4939",
+      "imported_from": "pp-browser:capabilities/delivery/src/lib/delivery/tests/data/peer_request_vectors.json"
+    },
+    {
+      "file": "post_vectors.json",
+      "sha256": "f7a26ea179b4f711c3ae3d9f543042337b39a8730573b7b737f23f695ea8cc79",
+      "imported_from": "pp-browser:capabilities/social/src/lib/posts/tests/data/post_vectors.json"
+    },
+    {
+      "file": "relay_certificate_vectors.json",
+      "sha256": "b1a4936fdbb0b8610222e3e7c6b8278ac3e9ae6b8aef5da83a00b0f0a54ae44a",
+      "imported_from": "pp-browser:capabilities/net/src/lib/net/tests/data/relay_certificate_vectors.json"
+    },
+    {
+      "file": "relay_grant_vectors.json",
+      "sha256": "ab7da2f8800b37829576cb0bebc4cd46b4873e289b69b48417065d388ce7bcfe",
+      "imported_from": "pp-browser:capabilities/delivery/src/lib/delivery/tests/data/relay_grant_vectors.json"
+    },
+    {
+      "file": "relay_sign_vectors.json",
+      "sha256": "adf035bcd32b8b616563f697c333b1b987fe8ecbcb6d63b89e8fd23c17396625",
+      "imported_from": "pp-browser:capabilities/delivery/src/lib/delivery/tests/data/relay_sign_vectors.json"
+    },
+    {
+      "file": "seeded_keygen_vectors.json",
+      "sha256": "821bea22bdd6434ddfd634a530a6780361706a7ea026321509154fcfe06ef718",
+      "imported_from": "pp-cpp-crypto:tests/data/seeded_keygen_vectors.json"
+    }
+  ]
+}
