@@ -1,6 +1,6 @@
 # The relay protocol over Amp
 
-**Status:** Draft (pp-browser node-relay NR002). New; its first implementation is `pp-node-relay` (NR3) and the app's
+**Status:** Draft (pp-browser node-relay NR002). New; its first implementation is the message relay of `pp-node-plus` (NR3) and the app's
 client (NR4), which bring its vectors.
 
 The same calls as [PROTOCOL.md](PROTOCOL.md), carried on the Amp mesh: one protocol of the `rpc` kind,

@@ -4,8 +4,8 @@
 frozen in [`relay_certificate_vectors.json`](../../vectors/relay_certificate_vectors.json); version 2 gets its own
 cases with its first implementation.
 
-Version 2 lets a relay with no `https://` address, a `pp-node-relay` at home, have a certificate: it may list no
-origin when it declares the Amp binding.
+Version 2 lets a relay with no `https://` address, a node relay at home (the message relay of `pp-node-plus`), have
+a certificate: it may list no origin when it declares the Amp binding.
 
 ## Format
 

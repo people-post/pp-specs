@@ -10,7 +10,7 @@ What a relay is to the app and to pp-node, written once and apart from how it tr
 |------|------|
 | [PROTOCOL.md](PROTOCOL.md) | The calls: their signed bytes, their fields, the order a relay checks them in, and the refusals every binding answers with |
 | [HTTPS.md](HTTPS.md) | The HTTPS binding: each call's method and path, status codes (the org's relay; every app today) |
-| [AMP.md](AMP.md) | The Amp binding: `/pp/rpc/relay/1.0.0`, its frames, `watch`, limits and timeouts (`pp-node-relay`) |
+| [AMP.md](AMP.md) | The Amp binding: `/pp/rpc/relay/1.0.0`, its frames, `watch`, limits and timeouts (the message relay of `pp-node-plus`) |
 | [CERTIFICATE_V2.md](CERTIFICATE_V2.md) | Relay certificate version 2: a relay with no `https://` origin (NR005) |
 | [CARD_ENTRIES.md](CARD_ENTRIES.md) | The account card's `amp_relays` and `delivery` entries (NR004, NR009) |
 | [NODE_RELAY_RECORDS.md](NODE_RELAY_RECORDS.md) | Invites, revokes, offers and ownership (NR008, NR011) |

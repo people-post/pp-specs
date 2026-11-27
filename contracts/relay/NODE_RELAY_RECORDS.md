@@ -1,7 +1,7 @@
 # Node relay records: invites, revokes, offers and ownership
 
 **Status:** Draft (pp-browser node-relay NR008, NR011). New formats; their vectors come with their first
-implementation (`pp-node-relay`, NR3; the app, NR4).
+implementation (`pp-node-plus`, NR3; the app, NR4).
 
 Every record names its **provider** by an id (an Account ID today, `account:…`; an organisation's id later) and is
 checked as **signed with the provider's authority**: today, by the account's signing key (its Account ID is that key's
