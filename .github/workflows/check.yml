@@ -1,0 +1,23 @@
+name: check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - name: JSON files parse
+        run: python3 scripts/check/check_json.py
+      - name: Links between files resolve
+        run: python3 scripts/check/check_links.py
+      - name: No private infrastructure detail (public repository)
+        run: |
+          ./scripts/check/check_private_infra.sh --self-test
+          ./scripts/check/check_private_infra.sh
